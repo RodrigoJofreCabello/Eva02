@@ -13,7 +13,7 @@ import java.sql.*;
 public class Conexion {
 
     public static Connection getConexion() {
-        String conexionUrl = "jdbc:sqlserver://localhost:1433;"
+        String conexionUrl = "jdbc:sqlserver://DESKTOP-TA0E49O:1433;"
                 + "database=master;"
                 + "user=sa;"
                 + "password=qwert123;"
